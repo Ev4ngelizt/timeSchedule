@@ -1,0 +1,38 @@
+table {
+    background: beige;
+    table-layout:auto;
+    empty-cells: show;
+}
+th {
+    background : crimson;
+}
+
+td {
+    visibility: visible;
+    border : 2px solid black;
+    background-color: beige;
+    width: 10%;
+    text-align: center;
+}
+
+
+td:hover {
+    filter: brightness(90%);
+}
+
+.empty {
+    visibility: hidden;
+    border: 0px
+}
+
+.nsi {
+    background: limegreen
+}
+
+.math {
+    background: red
+}
+
+.fr {
+    background : skyblue
+}
